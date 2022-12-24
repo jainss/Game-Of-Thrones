@@ -1,5 +1,6 @@
 import { Card, styled, Box, Typography } from "@mui/material";
-import { useState } from "react";
+import { useState,  } from "react";
+
 
 const Image = styled("img")({
   width: "100%",
@@ -23,6 +24,7 @@ const Container = styled(Box)`
 `;
 
 const Character = ({ value }) => {
+  
   const [toggle, setToggle] = useState(false);
 
   const touggleHover = () => {
